@@ -1,0 +1,59 @@
+{
+  "aviso": "DEMOSTRACIÓN ACADÉMICA — DATOS TOTALMENTE FICTICIOS",
+  "fecha_ejecucion_utc": "2026-09-24T22:20:38.482318+00:00",
+  "entorno": {
+    "sistema": "Linux",
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5",
+    "streamlit": "1.50.0"
+  },
+  "pruebas_ejecutadas": 19,
+  "fallas": 0,
+  "errores_de_ejecucion": 0,
+  "exitoso": true,
+  "comparacion_oraculo": {
+    "aciertos": 27,
+    "omitidos": 0,
+    "falsas_alertas": 0,
+    "alcance": "Errores y advertencias; información se prueba aparte.",
+    "errores_esperados": 24,
+    "advertencias_esperadas": 3
+  },
+  "bases": [
+    {
+      "archivo": "base_correcta.xlsx",
+      "registros_revisados": 200,
+      "registros_con_error": 0,
+      "porcentaje_sin_errores": 100.0,
+      "alertas_error": 0,
+      "alertas_advertencia": 0,
+      "alertas_informacion": 0,
+      "registros_no_agrupables": 0,
+      "segundos_procesamiento": 0.103777
+    },
+    {
+      "archivo": "base_con_errores.xlsx",
+      "registros_revisados": 200,
+      "registros_con_error": 18,
+      "porcentaje_sin_errores": 91.0,
+      "alertas_error": 24,
+      "alertas_advertencia": 3,
+      "alertas_informacion": 1,
+      "registros_no_agrupables": 4,
+      "segundos_procesamiento": 0.055175
+    },
+    {
+      "archivo": "base_excepciones_validas.xlsx",
+      "registros_revisados": 200,
+      "registros_con_error": 0,
+      "porcentaje_sin_errores": 100.0,
+      "alertas_error": 0,
+      "alertas_advertencia": 0,
+      "alertas_informacion": 3,
+      "registros_no_agrupables": 0,
+      "segundos_procesamiento": 0.056821
+    }
+  ],
+  "limites": "Tiempos de una ejecución local, incluyen lectura y validación. Excluyen exportación, revisión humana e IA. No se mide ahorro manual ni rendimiento institucional."
+}

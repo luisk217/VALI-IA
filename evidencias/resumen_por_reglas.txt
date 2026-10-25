@@ -1,0 +1,14 @@
+DEMOSTRACIÓN ACADÉMICA — DATOS TOTALMENTE FICTICIOS
+
+RESUMEN AUTOMÁTICO POR REGLAS — NO GENERADO POR IA
+Archivo: base_con_errores.xlsx
+Periodo: 2026-01-01 a 2026-03-31. Corte: 2026-03-31.
+Estructura válida: Sí.
+Registros revisados: 200.
+Registros con al menos un error: 18.
+Porcentaje sin errores: 91.0%.
+Alertas: 24 errores, 3 advertencias, 1 informativas.
+Estado: Requiere revisión antes del informe.
+Un registro puede tener varias alertas. Los errores del resumen se cuentan aparte de las filas de Registros afectadas.
+Acción: revisar la tabla Hallazgos y conciliar de nuevo tras verificar las propuestas.
+Limitación: cumplir estas reglas no comprueba la veracidad del registro ni mide ahorro de trabajo.

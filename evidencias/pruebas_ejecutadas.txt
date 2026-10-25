@@ -1,0 +1,25 @@
+DEMOSTRACIÓN ACADÉMICA — DATOS TOTALMENTE FICTICIOS
+test_flujo_interfaz (test_valiia.InterfaceTests.test_flujo_interfaz) ... ok
+test_archivo_ilegible (test_valiia.ValidatorTests.test_archivo_ilegible) ... ok
+test_archivo_vacio (test_valiia.ValidatorTests.test_archivo_vacio) ... ok
+test_ausencia_no_genera_errores_en_cascada (test_valiia.ValidatorTests.test_ausencia_no_genera_errores_en_cascada) ... ok
+test_catalogo_alterado (test_valiia.ValidatorTests.test_catalogo_alterado) ... ok
+test_cero_no_es_vacio (test_valiia.ValidatorTests.test_cero_no_es_vacio) ... ok
+test_columna_ausente (test_valiia.ValidatorTests.test_columna_ausente) ... ok
+test_correcta (test_valiia.ValidatorTests.test_correcta) ... ok
+test_excepciones_validas (test_valiia.ValidatorTests.test_excepciones_validas) ... ok
+test_exportaciones (test_valiia.ValidatorTests.test_exportaciones) ... ok
+test_fechas_limites_y_orden_no_evaluable (test_valiia.ValidatorTests.test_fechas_limites_y_orden_no_evaluable) ... ok
+test_formula_no_se_ejecuta (test_valiia.ValidatorTests.test_formula_no_se_ejecuta) ... ok
+test_hoja_ausente (test_valiia.ValidatorTests.test_hoja_ausente) ... ok
+test_hoja_sin_datos (test_valiia.ValidatorTests.test_hoja_sin_datos) ... ok
+test_no_modifica_origen (test_valiia.ValidatorTests.test_no_modifica_origen) ... ok
+test_oraculo_independiente (test_valiia.ValidatorTests.test_oraculo_independiente) ... ok
+test_semilla_reproducible (test_valiia.ValidatorTests.test_semilla_reproducible) ... ok
+test_total_diferente_sin_errores_registros (test_valiia.ValidatorTests.test_total_diferente_sin_errores_registros) ... ok
+test_varias_actividades_mismo_animal (test_valiia.ValidatorTests.test_varias_actividades_mismo_animal) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 2.008s
+
+OK

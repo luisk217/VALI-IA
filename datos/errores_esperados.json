@@ -1,0 +1,279 @@
+{
+  "aviso": "DEMOSTRACIÓN ACADÉMICA — DATOS TOTALMENTE FICTICIOS",
+  "semilla": 20260331,
+  "base": "base_con_errores.xlsx",
+  "criterio": "Coincidencia exacta de regla, codigo, gravedad, hoja, fila_excel, campo y combinacion. Información se evalúa aparte.",
+  "hallazgos_esperados": [
+    {
+      "regla": "R01",
+      "codigo": "obligatorio",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 4,
+      "campo": "responsable_id",
+      "combinacion": "",
+      "explicacion": "Responsable obligatorio eliminado."
+    },
+    {
+      "regla": "R02",
+      "codigo": "duplicado",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 5,
+      "campo": "id_registro",
+      "combinacion": "",
+      "explicacion": "ID de fila 6 copiado en fila 5."
+    },
+    {
+      "regla": "R02",
+      "codigo": "duplicado",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 6,
+      "campo": "id_registro",
+      "combinacion": "",
+      "explicacion": "Segunda fila del ID repetido."
+    },
+    {
+      "regla": "R03",
+      "codigo": "categoria",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 7,
+      "campo": "zona",
+      "combinacion": "",
+      "explicacion": "Zona ajena al catálogo."
+    },
+    {
+      "regla": "R04",
+      "codigo": "fecha_actividad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 8,
+      "campo": "fecha_actividad",
+      "combinacion": "",
+      "explicacion": "Fecha imposible."
+    },
+    {
+      "regla": "R04",
+      "codigo": "fecha_actividad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 9,
+      "campo": "fecha_actividad",
+      "combinacion": "",
+      "explicacion": "Actividad posterior al periodo."
+    },
+    {
+      "regla": "R05",
+      "codigo": "edad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 10,
+      "campo": "edad_meses",
+      "combinacion": "",
+      "explicacion": "Edad negativa."
+    },
+    {
+      "regla": "R05",
+      "codigo": "edad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 11,
+      "campo": "edad_meses",
+      "combinacion": "",
+      "explicacion": "Edad decimal."
+    },
+    {
+      "regla": "R05",
+      "codigo": "edad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 12,
+      "campo": "edad_meses",
+      "combinacion": "",
+      "explicacion": "Edad sobre 300."
+    },
+    {
+      "regla": "R05",
+      "codigo": "edad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 13,
+      "campo": "edad_meses",
+      "combinacion": "",
+      "explicacion": "Edad no numérica."
+    },
+    {
+      "regla": "R06",
+      "codigo": "anterior_actividad",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 14,
+      "campo": "fecha_seguimiento",
+      "combinacion": "",
+      "explicacion": "Seguimiento antes de la actividad."
+    },
+    {
+      "regla": "R06",
+      "codigo": "posterior_corte",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 15,
+      "campo": "fecha_seguimiento",
+      "combinacion": "",
+      "explicacion": "Seguimiento posterior al corte."
+    },
+    {
+      "regla": "R06",
+      "codigo": "contradiccion",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 16,
+      "campo": "fecha_seguimiento",
+      "combinacion": "",
+      "explicacion": "Fecha informada junto a No."
+    },
+    {
+      "regla": "R06",
+      "codigo": "fecha_no_valida",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 17,
+      "campo": "fecha_seguimiento",
+      "combinacion": "",
+      "explicacion": "Fecha no interpretable."
+    },
+    {
+      "regla": "R03",
+      "codigo": "categoria",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 18,
+      "campo": "especie",
+      "combinacion": "",
+      "explicacion": "Especie no permitida."
+    },
+    {
+      "regla": "R01",
+      "codigo": "obligatorio",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 19,
+      "campo": "id_animal",
+      "combinacion": "",
+      "explicacion": "Código del animal eliminado."
+    },
+    {
+      "regla": "R03",
+      "codigo": "categoria",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 20,
+      "campo": "seguimiento_requerido",
+      "combinacion": "",
+      "explicacion": "Categoría de seguimiento inválida."
+    },
+    {
+      "regla": "R03",
+      "codigo": "categoria",
+      "gravedad": "error",
+      "hoja": "Registros",
+      "fila_excel": 21,
+      "campo": "tipo_actividad",
+      "combinacion": "",
+      "explicacion": "Actividad no permitida."
+    },
+    {
+      "regla": "R08",
+      "codigo": "total_invalido",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 5,
+      "campo": "total_reportado",
+      "combinacion": "2026-01 / Canino / Orientación",
+      "explicacion": "Total negativo."
+    },
+    {
+      "regla": "R08",
+      "codigo": "clave_invalida",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 6,
+      "campo": "periodo",
+      "combinacion": "2026-04 / Canino / Seguimiento",
+      "explicacion": "Periodo no permitido."
+    },
+    {
+      "regla": "R08",
+      "codigo": "combinacion_ausente",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": null,
+      "campo": "combinacion",
+      "combinacion": "2026-01 / Canino / Seguimiento",
+      "explicacion": "Combinación perdida al cambiar el periodo."
+    },
+    {
+      "regla": "R08",
+      "codigo": "combinacion_ausente",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": null,
+      "campo": "combinacion",
+      "combinacion": "2026-01 / Felino / Valoración",
+      "explicacion": "Combinación eliminada deliberadamente."
+    },
+    {
+      "regla": "R08",
+      "codigo": "combinacion_duplicada",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 7,
+      "campo": "combinacion",
+      "combinacion": "2026-01 / Felino / Orientación",
+      "explicacion": "Combinación repetida."
+    },
+    {
+      "regla": "R08",
+      "codigo": "combinacion_duplicada",
+      "gravedad": "error",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 21,
+      "campo": "combinacion",
+      "combinacion": "2026-01 / Felino / Orientación",
+      "explicacion": "Combinación repetida."
+    },
+    {
+      "regla": "R07",
+      "codigo": "diferencia",
+      "gravedad": "advertencia",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 12,
+      "campo": "total_reportado",
+      "combinacion": "2026-02 / Felino / Valoración",
+      "explicacion": "Diferencia provisional esperada de 1 por el registro de mutaciones."
+    },
+    {
+      "regla": "R07",
+      "codigo": "diferencia",
+      "gravedad": "advertencia",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 4,
+      "campo": "total_reportado",
+      "combinacion": "2026-01 / Canino / Valoración",
+      "explicacion": "Diferencia provisional esperada de 5 por el registro de mutaciones."
+    },
+    {
+      "regla": "R07",
+      "codigo": "diferencia",
+      "gravedad": "advertencia",
+      "hoja": "Resumen_mensual",
+      "fila_excel": 18,
+      "campo": "total_reportado",
+      "combinacion": "2026-03 / Felino / Valoración",
+      "explicacion": "Diferencia provisional esperada de 1 por el registro de mutaciones."
+    }
+  ],
+  "informativos_esperados": 1
+}
